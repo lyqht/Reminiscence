@@ -9,12 +9,12 @@
 @import 'contact.scss';
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Muli';
   letter-spacing: 0.0625em;
 }
 
 a {
-  color: $primary;
+  color: $pink;
   &:focus,
   &:hover {
     text-decoration: none;
@@ -28,6 +28,14 @@ a {
 
 .bg-primary {
   background-color: $primary !important;
+}
+
+.bg-blue {
+  background-color: $blue !important;
+}
+
+.bg-pink {
+  background-color: $pink !important;
 }
 
 .text-primary {

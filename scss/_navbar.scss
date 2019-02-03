@@ -4,7 +4,7 @@
   .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: $primary;
+    color: $pink;
     border: 1px solid $primary;
     &:focus {
       outline: none;
@@ -17,6 +17,7 @@
   }
   .navbar-nav {
     .nav-item {
+      color: black;
       &:hover {
         color: fade(white, 80%);
         outline: none;
@@ -60,15 +61,15 @@
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
         &:hover {
-          color: $primary;
+          font-weight: bold;
         }
         &:active {
-          color: darken($primary, 15%);
+          color: darken($pink, 15%);
         }
         &.active {
-          color: $primary;
+          color: $pink;
           outline: none;
-          border-bottom: 0.25rem solid $primary;
+          border-bottom: 0.25rem solid $pink;
         }
       }
     }
