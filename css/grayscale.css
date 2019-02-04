@@ -106,8 +106,8 @@
 
 .masthead h1 {
   font-family: 'Delius Unicase', cursive;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
   letter-spacing: 0.5rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
@@ -181,6 +181,11 @@
   margin-bottom: 5rem;
 }
 
+.about-section .flex-item {
+  width: 5rem;
+  height: 100%;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
@@ -223,18 +228,37 @@
   }
 }
 
-.projects-section .featured-title-pink {
+.projects-section .cute-text {
+  font-family: 'Delius Unicase', cursive;
+}
+
+.projects-section .text-pink {
   color: #E893BD;
 }
 
-.projects-section .featured-title-blue {
+.projects-section .text-blue {
   color: #7BD0E6;
+}
+
+.projects-section .text-bold {
+  font-weight: bold;
 }
 
 .projects-section .img-rounded {
   border-radius: 20px;
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.projects-section .coming-soon-text {
+  background-color: white;
+  border: 0;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  border-color: #e9ecef;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 3px;
 }
 
 .signup-section {

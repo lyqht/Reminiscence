@@ -6,6 +6,7 @@
       padding: 0 0 0 2rem;
       border-left: 0.5rem solid $pink;
     }
+    
   }
 
   .featured-text-blue {
@@ -27,16 +28,36 @@
       }
     }
   }
-  
-  .featured-title-pink {
-    color: $pink;
+
+  .cute-text {
+    font-family: 'Delius Unicase', cursive;
   }
-  .featured-title-blue {
+  
+  .text-pink {
+    color: $pink;
+    
+  }
+  .text-blue {
     color: $blue;
+  }
+
+  .text-bold {
+    font-weight: bold;
   }
 
   .img-rounded {
     border-radius: 20px;
     box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1) !important;
+  }
+
+  .coming-soon-text {
+    background-color: white;
+    border: 0;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    border-color: $gray-200; 
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 3px;
   }
 }
