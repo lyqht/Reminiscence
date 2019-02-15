@@ -9,6 +9,7 @@
   color: $white;
 }
 
+
 .btn-primary {
   background-color: $pink;
   &:hover {
@@ -21,4 +22,5 @@
   &:active {
     background-color: darken($pink, 15%) !important;
   }
+
 }
